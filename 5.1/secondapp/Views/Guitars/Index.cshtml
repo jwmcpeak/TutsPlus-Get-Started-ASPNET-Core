@@ -1,0 +1,9 @@
+@model IEnumerable<secondapp.Models.Guitar>
+
+<h1>This is our list of guitars</h1>
+
+<ul>
+@foreach (var guitar in Model) {
+    <li>@guitar.Model</li>
+}
+</ul>
